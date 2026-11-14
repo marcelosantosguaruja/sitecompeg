@@ -1,418 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width,initial-scale=1" name="viewport"/>
-  <meta content="Projeto demonstrativo n&atilde;o oficial sobre a trajet&oacute;ria p&uacute;blica do COMPEG em Guaruj&aacute;." name="description"/>
-  <meta content="#101010" name="theme-color"/>
-  <title>
-   COMPEG | Projeto demonstrativo &mdash; Guaruj&aacute;
-  </title>
-  <link href="style.css" rel="stylesheet"/>
-  <script defer="" src="script.js">
-  </script>
- </head>
- <body>
-  <a class="skip" href="#conteudo">
-   Ir ao conte&uacute;do
-  </a>
-  <div class="notice">
-   PROJETO DEMONSTRATIVO N&Atilde;O OFICIAL &bull; N&atilde;o representa o COMPEG nem recebe mensagens em seu nome.
-  </div>
-  <header class="header">
-   <div class="container nav">
-    <a aria-label="COMPEG in&iacute;cio" class="brand" href="#inicio">
-     <img alt="Logotipo do COMPEG" class="logo-compeg" src="logonovo.PNG" width="64" height="64" style="display:block;width:64px;height:64px;max-width:64px;object-fit:contain;border-radius:50%;flex-shrink:0;"/>
-     <span class="brand-text">
-      <strong>
-       COMPEG
-      </strong>
-      <small>
-       GUARUJ&Aacute; &bull; SP
-      </small>
-     </span>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Projeto demonstrativo não oficial sobre a trajetória pública do COMPEG em Guarujá.">
+  <meta name="theme-color" content="#101010">
+  <title>COMPEG | Projeto demonstrativo — Guarujá</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir ao conteúdo</a>
+<div class="notice">PROJETO DEMONSTRATIVO NÃO OFICIAL • Não representa o COMPEG nem recebe mensagens em seu nome.</div>
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="#inicio" aria-label="COMPEG início">
+      <img src="logonovo.PNG" alt="Logotipo do COMPEG" class="logo-compeg">
+      <span class="brand-text"><strong>COMPEG</strong><small>GUARUJÁ • SP</small></span>
     </a>
-    <button aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menu" class="menu-toggle" id="menuToggle">
-     ☰
-    </button>
-    <nav aria-label="Menu principal" id="mainNav">
-     <a href="#sobre">
-      Sobre
-     </a>
-     <a href="#historia">
-      Hist&oacute;ria
-     </a>
-     <a href="#noticias">
-      Not&iacute;cias
-     </a>
-     <a href="#eventos">
-      Eventos
-     </a>
-     <a href="#galeria">
-      Galeria
-     </a>
-     <a href="#igrejas">
-      Igrejas
-     </a>
-     <a href="#contato">
-      Contato
-     </a>
+    <button id="menuToggle" class="menu-toggle" aria-label="Abrir menu" aria-controls="mainNav" aria-expanded="false">☰</button>
+    <nav id="mainNav" aria-label="Menu principal">
+      <a href="#sobre">Sobre</a><a href="#historia">História</a><a href="#noticias">Notícias</a><a href="#eventos">Eventos</a><a href="#galeria">Galeria</a><a href="#igrejas">Igrejas</a><a href="#contato">Contato</a>
     </nav>
-   </div>
-  </header>
-  <main id="conteudo">
-   <section class="hero" id="inicio">
-    <div class="container hero-content">
-     <p class="eyebrow">
-      CONSELHO DE MINISTROS E PASTORES EVANG&Eacute;LICOS DE GUARUJ&Aacute;
-     </p>
-     <h1>
-      Mem&oacute;ria, f&eacute; e presen&ccedil;a na cidade.
-     </h1>
-     <p>
-      Um projeto que re&uacute;ne registros p&uacute;blicos sobre eventos e iniciativas ligados ao COMPEG no Guaruj&aacute;.
-     </p>
-     <div class="actions">
-      <a class="btn" href="#historia">
-       Explorar a hist&oacute;ria
-      </a>
-      <a class="btn outline" href="#noticias">
-       Consultar as fontes
-      </a>
-     </div>
-     <p class="hero-note">
-      Conte&uacute;do hist&oacute;rico com fontes &bull; Identidade e informa&ccedil;&otilde;es institucionais sujeitas &agrave; autoriza&ccedil;&atilde;o
-     </p>
-    </div>
-   </section>
-   <section class="section" id="sobre">
-    <div class="container">
-     <p class="eyebrow">
-      APRESENTA&Ccedil;&Atilde;O
-     </p>
-     <h2>
-      Sobre este projeto
-     </h2>
-     <div class="two-col">
-      <div>
-       <p>
-        O COMPEG &eacute; citado em publica&ccedil;&otilde;es oficiais do Munic&iacute;pio de Guaruj&aacute; como organizador ou participante de atividades religiosas e culturais, incluindo a Marcha para Jesus, a Carreata do Clamor e apresenta&ccedil;&otilde;es de m&uacute;sica gospel.
-       </p>
-       <p>
-        Este portal n&atilde;o &eacute; administrado pelo Conselho. Seu objetivo &eacute; organizar fatos documentados e apresentar uma proposta de presen&ccedil;a digital para futura avalia&ccedil;&atilde;o institucional.
-       </p>
-      </div>
-      <aside class="panel">
-       <h3>
-        Informa&ccedil;&otilde;es a confirmar
-       </h3>
-       <ul>
-        <li>
-         Estatuto e data formal de funda&ccedil;&atilde;o
-        </li>
-        <li>
-         Diretoria e mandato em exerc&iacute;cio
-        </li>
-        <li>
-         Endere&ccedil;o e canais oficiais
-        </li>
-        <li>
-         Rela&ccedil;&atilde;o de igrejas associadas
-        </li>
-        <li>
-         Autoriza&ccedil;&atilde;o para identidade visual e acervo
-        </li>
-       </ul>
-      </aside>
-     </div>
-    </div>
-   </section>
-   <section class="section alt" id="historia">
-    <div class="container">
-     <p class="eyebrow">
-      MEM&Oacute;RIA DOCUMENTADA
-     </p>
-     <h2>
-      Linha do tempo
-     </h2>
-     <div class="timeline">
-      <article>
-       <span>
-        2021
-       </span>
-       <div>
-        <h3>
-         Carreata do Clamor
-        </h3>
-        <p>
-         O Di&aacute;rio Oficial de 13/04/2021 registrou carreata promovida pelo Conselho em homenagem a profissionais da linha de frente e v&iacute;timas da pandemia.
-        </p>
-        <a href="https://www.guaruja.sp.gov.br/plataforma/wp-content/uploads/2021/04/13-04-2021.pdf" rel="noopener noreferrer" target="_blank">
-         Fonte: Di&aacute;rio Oficial &nearrow;
-        </a>
-       </div>
-      </article>
-      <article>
-       <span>
-        2025
-       </span>
-       <div>
-        <h3>
-         Marcha para Jesus
-        </h3>
-        <p>
-         Realizada em 06/12/2025, com trajeto de Pitangueiras &agrave; Enseada. O Di&aacute;rio Oficial identificou COMPEG e R&aacute;dio Fly 99.1 FM como realizadores.
-        </p>
-        <a href="https://www.guaruja.sp.gov.br/plataforma/wp-content/uploads/2025/12/09-1uQY2289y2-2025.pdf" rel="noopener noreferrer" target="_blank">
-         Fonte: Di&aacute;rio Oficial &nearrow;
-        </a>
-       </div>
-      </article>
-      <article>
-       <span>
-        2026
-       </span>
-       <div>
-        <h3>
-         Tributo a Ron Kenoly
-        </h3>
-        <p>
-         O Di&aacute;rio Oficial de 01/04/2026 anunciou evento do COMPEG no Teatro Proc&oacute;pio Ferreira para 02/04, com entrada solid&aacute;ria.
-        </p>
-        <a href="https://www.guaruja.sp.gov.br/plataforma/wp-content/uploads/2026/03/01-0hA24o8w64-2026.pdf" rel="noopener noreferrer" target="_blank">
-         Fonte: Di&aacute;rio Oficial &nearrow;
-        </a>
-       </div>
-      </article>
-     </div>
-    </div>
-   </section>
-   <section class="section" id="noticias">
-    <div class="container">
-     <p class="eyebrow">
-      ARQUIVO DE PUBLICA&Ccedil;&Otilde;ES
-     </p>
-     <h2>
-      Not&iacute;cias documentadas
-     </h2>
-     <p class="muted">
-      Estas s&atilde;o not&iacute;cias hist&oacute;ricas, n&atilde;o atualiza&ccedil;&otilde;es em tempo real.
-     </p>
-     <div class="cards" id="newsGrid">
-     </div>
-    </div>
-   </section>
-   <section class="section alt" id="eventos">
-    <div class="container">
-     <p class="eyebrow">
-      AGENDA E MEM&Oacute;RIA
-     </p>
-     <h2>
-      Eventos
-     </h2>
-     <div aria-label="Filtrar eventos" class="filters" role="group">
-      <button aria-pressed="true" class="filter active" data-filter="todos">
-       Todos
-      </button>
-      <button aria-pressed="false" class="filter" data-filter="passados">
-       Realizados
-      </button>
-      <button aria-pressed="false" class="filter" data-filter="futuros">
-       Pr&oacute;ximos
-      </button>
-     </div>
-     <div class="cards" id="eventsGrid">
-     </div>
-     <p class="muted">
-      N&atilde;o h&aacute; eventos futuros confirmados cadastrados neste projeto.
-     </p>
-    </div>
-   </section>
-   <section class="section" id="galeria">
-    <div class="container">
-     <p class="eyebrow">
-      ACERVO VISUAL
-     </p>
-     <h2>
-      Galeria demonstrativa
-     </h2>
-     <p class="muted">
-      Ilustra&ccedil;&otilde;es vetoriais gen&eacute;ricas produzidas para este modelo; n&atilde;o s&atilde;o fotografias de eventos do COMPEG. Substitua por imagens autorizadas com cr&eacute;dito.
-     </p>
-     <div class="gallery" id="galleryGrid">
-      <button class="gallery-item" data-caption="Ilustra&ccedil;&atilde;o gen&eacute;rica de caminhada p&uacute;blica" data-img="imagens/marcha.svg">
-       <img alt="Ilustra&ccedil;&atilde;o de pessoas em caminhada p&uacute;blica" loading="lazy" src="imagens/marcha.svg"/>
-       <span>
-        Caminhada e celebra&ccedil;&atilde;o
-       </span>
-      </button>
-      <button class="gallery-item" data-caption="Ilustra&ccedil;&atilde;o gen&eacute;rica de apresenta&ccedil;&atilde;o musical" data-img="imagens/musica.svg">
-       <img alt="Ilustra&ccedil;&atilde;o de apresenta&ccedil;&atilde;o musical" loading="lazy" src="imagens/musica.svg"/>
-       <span>
-        M&uacute;sica e louvor
-       </span>
-      </button>
-      <button class="gallery-item" data-caption="Ilustra&ccedil;&atilde;o gen&eacute;rica de encontro comunit&aacute;rio" data-img="imagens/comunidade.svg">
-       <img alt="Ilustra&ccedil;&atilde;o de encontro comunit&aacute;rio" loading="lazy" src="imagens/comunidade.svg"/>
-       <span>
-        Encontro comunit&aacute;rio
-       </span>
-      </button>
-     </div>
-    </div>
-   </section>
-   <section class="section alt" id="igrejas">
-    <div class="container">
-     <p class="eyebrow">
-      DIRET&Oacute;RIO
-     </p>
-     <h2>
-      Igrejas e comunidades
-     </h2>
-     <p>
-      O Di&aacute;rio Oficial de 01/04/2026 citou representantes das seguintes congrega&ccedil;&otilde;es na programa&ccedil;&atilde;o do tributo a Ron Kenoly.
-      <strong>
-       A participa&ccedil;&atilde;o naquele evento n&atilde;o comprova filia&ccedil;&atilde;o ao COMPEG.
-      </strong>
-     </p>
-     <div class="search">
-      <label for="churchSearch">
-       Pesquisar nome
-      </label>
-      <input id="churchSearch" placeholder="Digite o nome da comunidade..." type="search"/>
-     </div>
-     <div class="cards" id="churchGrid">
-     </div>
-     <p class="muted">
-      Cadastro oficial de igrejas associadas: pendente de confirma&ccedil;&atilde;o e autoriza&ccedil;&atilde;o.
-     </p>
-    </div>
-   </section>
-   <section class="section" id="contato">
-    <div class="container">
-     <p class="eyebrow">
-      CONTATO
-     </p>
-     <h2>
-      Fale sobre o projeto
-     </h2>
-     <div class="two-col">
-      <div>
-       <p>
-        Este formul&aacute;rio &eacute; apenas uma demonstra&ccedil;&atilde;o de interface. N&atilde;o envia nem armazena informa&ccedil;&otilde;es.
-       </p>
-       <form id="contactForm">
-        <label for="nome">
-         Nome
-        </label>
-        <input id="nome" maxlength="100" name="nome" required=""/>
-        <label for="email">
-         E-mail
-        </label>
-        <input id="email" maxlength="150" name="email" required="" type="email"/>
-        <label for="mensagem">
-         Mensagem
-        </label>
-        <textarea id="mensagem" maxlength="2000" name="mensagem" required="" rows="5"></textarea>
-        <button class="btn" type="submit">
-         Testar formul&aacute;rio
-        </button>
-        <p aria-live="polite" id="formStatus" role="status">
-        </p>
-       </form>
-      </div>
-      <aside class="panel">
-       <h3>
-        Canais institucionais
-       </h3>
-       <p>
-        Telefone, e-mail, WhatsApp e endere&ccedil;o oficial do COMPEG:
-        <strong>
-         pendentes de confirma&ccedil;&atilde;o.
-        </strong>
-       </p>
-       <p>
-        N&atilde;o utilize este formul&aacute;rio para encaminhar solicita&ccedil;&otilde;es ao Conselho.
-       </p>
-       <a href="https://www.guaruja.sp.gov.br/" rel="noopener noreferrer" target="_blank">
-        Portal da Prefeitura de Guaruj&aacute; &nearrow;
-       </a>
-      </aside>
-     </div>
-    </div>
-   </section>
-   <section class="section alt" id="fontes">
-    <div class="container">
-     <p class="eyebrow">
-      TRANSPAR&Ecirc;NCIA
-     </p>
-     <h2>
-      Fontes e crit&eacute;rios
-     </h2>
-     <p>
-      O conte&uacute;do diferencia fatos documentados de dados pendentes de confirma&ccedil;&atilde;o. Datas de eventos passados n&atilde;o devem ser interpretadas como agenda futura.
-     </p>
-     <ol class="sources">
-      <li>
-       <a href="https://www.guaruja.sp.gov.br/plataforma/wp-content/uploads/2021/04/13-04-2021.pdf" rel="noopener noreferrer" target="_blank">
-        Di&aacute;rio Oficial de Guaruj&aacute;, 13/04/2021 &mdash; Carreata do Clamor
-       </a>
-      </li>
-      <li>
-       <a href="https://www.guaruja.sp.gov.br/plataforma/wp-content/uploads/2025/12/09-1uQY2289y2-2025.pdf" rel="noopener noreferrer" target="_blank">
-        Di&aacute;rio Oficial de Guaruj&aacute;, 09/12/2025 &mdash; Marcha para Jesus
-       </a>
-      </li>
-      <li>
-       <a href="https://www.guaruja.sp.gov.br/plataforma/wp-content/uploads/2026/03/01-0hA24o8w64-2026.pdf" rel="noopener noreferrer" target="_blank">
-        Di&aacute;rio Oficial de Guaruj&aacute;, 01/04/2026 &mdash; Tributo a Ron Kenoly
-       </a>
-      </li>
-      <li>
-       <a href="https://guaruja.siscam.com.br/Documentos/Documento/223626" rel="noopener noreferrer" target="_blank">
-        C&acirc;mara Municipal &mdash; Lei n&ordm; 5.262/2025, Marcha para Jesus no calend&aacute;rio oficial
-       </a>
-      </li>
-     </ol>
-     <p class="muted">
-      Atualiza&ccedil;&atilde;o editorial: 08/11/2026. Verifique novamente as fontes antes de divulgar novas informa&ccedil;&otilde;es.
-     </p>
-    </div>
-   </section>
-  </main>
-  <footer>
-   <div class="container footer">
-    <div>
-     <strong>
-      ✦ COMPEG &mdash; MEM&Oacute;RIA P&Uacute;BLICA
-     </strong>
-     <p>
-      Projeto demonstrativo - Site 🛠 em Constru&ccedil;&atilde;o.
-     </p>
-    </div>
-    <div>
-     <p>
-      Guaruj&aacute; &bull; S&atilde;o Paulo &bull; Brasil
-     </p>
-     <a href="#inicio">
-      Voltar ao in&iacute;cio &uarr;
-     </a>
-    </div>
-   </div>
-   <div class="container copyright">
-    &copy;
-    <span id="year">
-    </span>
-    Marcelo F&eacute;lix dos Santos - Desenvolvimento de Sistemas.
-   </div>
-  </footer>
-  <dialog aria-label="Visualiza&ccedil;&atilde;o da imagem" id="lightbox">
-   <button aria-label="Fechar imagem" class="close" id="closeLightbox">
-    ✕
-   </button>
-   <img alt="" id="lightboxImage"/>
-   <p id="lightboxCaption">
-   </p>
-  </dialog>
- </body>
+  </div>
+</header>
+<main id="conteudo">
+<section class="hero" id="inicio"><div class="container hero-content">
+  <p class="eyebrow">CONSELHO DE MINISTROS E PASTORES EVANGÉLICOS DE GUARUJÁ</p>
+  <h1>Memória, fé e presença na cidade.</h1>
+  <p>Um projeto que reúne registros públicos sobre eventos e iniciativas ligados ao COMPEG no Guarujá.</p>
+  <div class="actions"><a class="btn" href="#historia">Explorar a história</a><a class="btn outline" href="#noticias">Consultar as fontes</a></div>
+  <p class="hero-note">Conteúdo histórico com fontes • Identidade e informações institucionais sujeitas à autorização</p>
+</div></section>
+<section class="section" id="sobre"><div class="container">
+  <p class="eyebrow">APRESENTAÇÃO</p><h2>Sobre este projeto</h2>
+  <div class="two-col"><div><p>O COMPEG é citado em publicações oficiais do Município de Guarujá como organizador ou participante de atividades religiosas e culturais, incluindo a Marcha para Jesus, a Carreata do Clamor e apresentações de música gospel.</p><p>Este portal não é administrado pelo Conselho. Seu objetivo é organizar fatos documentados e apresentar uma proposta de presença digital para futura avaliação institucional.</p></div>
+  <aside class="panel"><h3>Informações a confirmar</h3><ul><li>Estatuto e data formal de fundação</li><li>Diretoria e mandato em exercício</li><li>Endereço e canais oficiais</li><li>Relação de igrejas associadas</li><li>Autorização para identidade visual e acervo</li></ul></aside></div>
+</div></section>
+<section class="section alt" id="historia"><div class="container"><p class="eyebrow">MEMÓRIA DOCUMENTADA</p><h2>Linha do tempo</h2><div class="timeline">
+  <article><span>2021</span><div><h3>Carreata do Clamor</h3><p>O Diário Oficial de 13/04/2021 registrou carreata promovida pelo Conselho em homenagem a profissionais da linha de frente e vítimas da pandemia.</p><a href="https://www.guaruja.sp.gov.br/plataforma/wp-content/uploads/2021/04/13-04-2021.pdf" target="_blank" rel="noopener noreferrer">Fonte: Diário Oficial ↗</a></div></article>
+  <article><span>2025</span><div><h3>Marcha para Jesus</h3><p>Realizada em 06/12/2025, com trajeto de Pitangueiras à Enseada. O Diário Oficial identificou COMPEG e Rádio Fly 99.1 FM como realizadores.</p><a href="https://www.guaruja.sp.gov.br/plataforma/wp-content/uploads/2025/12/09-1uQY2289y2-2025.pdf" target="_blank" rel="noopener noreferrer">Fonte: Diário Oficial ↗</a></div></article>
+  <article><span>2026</span><div><h3>Tributo a Ron Kenoly</h3><p>O Diário Oficial de 01/04/2026 anunciou evento do COMPEG no Teatro Procópio Ferreira para 02/04, com entrada solidária.</p><a href="https://www.guaruja.sp.gov.br/plataforma/wp-content/uploads/2026/03/01-0hA24o8w64-2026.pdf" target="_blank" rel="noopener noreferrer">Fonte: Diário Oficial ↗</a></div></article>
+</div></div></section>
+<section class="section" id="noticias"><div class="container"><p class="eyebrow">ARQUIVO DE PUBLICAÇÕES</p><h2>Notícias documentadas</h2><p class="muted">Estas são notícias históricas, não atualizações em tempo real.</p><div class="cards" id="newsGrid"></div></div></section>
+<section class="section alt" id="eventos"><div class="container"><p class="eyebrow">AGENDA E MEMÓRIA</p><h2>Eventos</h2><div class="filters" role="group" aria-label="Filtrar eventos"><button class="filter active" data-filter="todos" aria-pressed="true">Todos</button><button class="filter" data-filter="passados" aria-pressed="false">Realizados</button><button class="filter" data-filter="futuros" aria-pressed="false">Próximos</button></div><div class="cards" id="eventsGrid"></div><p class="muted">Não há eventos futuros confirmados cadastrados neste projeto.</p></div></section>
+<section class="section" id="galeria"><div class="container"><p class="eyebrow">ACERVO VISUAL</p><h2>Galeria demonstrativa</h2><p class="muted">Ilustrações vetoriais genéricas produzidas para este modelo; não são fotografias de eventos do COMPEG. Substitua por imagens autorizadas com crédito.</p><div class="gallery" id="galleryGrid">
+  <button class="gallery-item" data-caption="Ilustração genérica de caminhada pública" data-img="imagens/marcha.svg"><img src="imagens/marcha.svg" alt="Ilustração de pessoas em caminhada pública" loading="lazy"><span>Caminhada e celebração</span></button>
+  <button class="gallery-item" data-caption="Ilustração genérica de apresentação musical" data-img="imagens/musica.svg"><img src="imagens/musica.svg" alt="Ilustração de apresentação musical" loading="lazy"><span>Música e louvor</span></button>
+  <button class="gallery-item" data-caption="Ilustração genérica de encontro comunitário" data-img="imagens/comunidade.svg"><img src="imagens/comunidade.svg" alt="Ilustração de encontro comunitário" loading="lazy"><span>Encontro comunitário</span></button>
+</div></div></section>
+<section class="section alt" id="igrejas"><div class="container"><p class="eyebrow">DIRETÓRIO</p><h2>Igrejas e comunidades</h2><p>O Diário Oficial de 01/04/2026 citou representantes das seguintes congregações na programação do tributo a Ron Kenoly. <strong>A participação naquele evento não comprova filiação ao COMPEG.</strong></p><div class="search"><label for="churchSearch">Pesquisar nome</label><input id="churchSearch" type="search" placeholder="Digite o nome da comunidade..."></div><div class="cards" id="churchGrid"></div><p class="muted">Cadastro oficial de igrejas associadas: pendente de confirmação e autorização.</p></div></section>
+<section class="section" id="contato"><div class="container"><p class="eyebrow">CONTATO</p><h2>Fale sobre o projeto</h2><div class="two-col"><div><p>Este formulário é apenas uma demonstração de interface. Não envia nem armazena informações.</p><form id="contactForm"><label for="nome">Nome</label><input id="nome" name="nome" maxlength="100" required><label for="email">E-mail</label><input id="email" name="email" type="email" maxlength="150" required><label for="mensagem">Mensagem</label><textarea id="mensagem" name="mensagem" maxlength="2000" rows="5" required></textarea><button type="submit" class="btn">Testar formulário</button><p id="formStatus" role="status" aria-live="polite"></p></form></div><aside class="panel"><h3>Canais institucionais</h3><p>Telefone, e-mail, WhatsApp e endereço oficial do COMPEG: <strong>pendentes de confirmação.</strong></p><p>Não utilize este formulário para encaminhar solicitações ao Conselho.</p><a href="https://www.guaruja.sp.gov.br/" target="_blank" rel="noopener noreferrer">Portal da Prefeitura de Guarujá ↗</a></aside></div></div></section>
+<section class="section alt" id="fontes"><div class="container"><p class="eyebrow">TRANSPARÊNCIA</p><h2>Fontes e critérios</h2><p>O conteúdo diferencia fatos documentados de dados pendentes de confirmação. Datas de eventos passados não devem ser interpretadas como agenda futura.</p><ol class="sources"><li><a href="https://www.guaruja.sp.gov.br/plataforma/wp-content/uploads/2021/04/13-04-2021.pdf" target="_blank" rel="noopener noreferrer">Diário Oficial de Guarujá, 13/04/2021 — Carreata do Clamor</a></li><li><a href="https://www.guaruja.sp.gov.br/plataforma/wp-content/uploads/2025/12/09-1uQY2289y2-2025.pdf" target="_blank" rel="noopener noreferrer">Diário Oficial de Guarujá, 09/12/2025 — Marcha para Jesus</a></li><li><a href="https://www.guaruja.sp.gov.br/plataforma/wp-content/uploads/2026/03/01-0hA24o8w64-2026.pdf" target="_blank" rel="noopener noreferrer">Diário Oficial de Guarujá, 01/04/2026 — Tributo a Ron Kenoly</a></li><li><a href="https://guaruja.siscam.com.br/Documentos/Documento/223626" target="_blank" rel="noopener noreferrer">Câmara Municipal — Lei nº 5.262/2025, Marcha para Jesus no calendário oficial</a></li></ol><p class="muted">Atualização editorial: 08/11/2026. Verifique novamente as fontes antes de divulgar novas informações.</p></div></section>
+</main>
+<footer><div class="container footer"><div><strong>✦ COMPEG — MEMÓRIA PÚBLICA</strong><p>Projeto demonstrativo - Site 🛠 em Construção.</p></div><div><p>Guarujá • São Paulo • Brasil</p><a href="#inicio">Voltar ao início ↑</a></div></div><div class="container copyright">© <span id="year"></span> Marcelo Félix dos Santos - Desenvolvimento de Sistemas.</div></footer>
+<dialog id="lightbox" aria-label="Visualização da imagem"><button id="closeLightbox" class="close" aria-label="Fechar imagem">✕</button><img id="lightboxImage" alt=""><p id="lightboxCaption"></p></dialog>
+</body>
 </html>
